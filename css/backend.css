@@ -1,0 +1,462 @@
+
+
+/* === Main Container === */
+
+.eshopMigrationWooCommerce{
+		overflow:hidden;
+}
+
+/* === Header Elements === */
+
+.wpeieProHeader{
+	width:100%;
+}
+
+/* === Footer Elements === */
+.web_logo{
+	float:right;
+}
+.web_logo img{
+	width:150px;
+	height:auto;	
+}
+
+
+/* === Ajaxify === */
+.eshopMigrationWooCommerce.loading > * {
+    opacity:0.2;
+}
+
+.eshopMigrationWooCommerce.loading:before {
+    position:fixed;
+    content: "Loading...";
+    font-size:2em;
+    padding: 22px;
+    background: #000;
+    background: url(../images/loading.gif) no-repeat center center;
+    color: #777;
+    width: 50%;
+    height:50%;
+    margin-left:15%;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+/* === Instructions Elements  === */
+
+.eshopMigrationWooCommerce .imageinfo,
+.eshopMigrationWooCommerce .productInfo,
+.eshopMigrationWooCommerce .updateinfo{
+	display:none;
+}
+.eshopMigrationWooCommerce .imageHandling,
+.eshopMigrationWooCommerce .productHandling.
+.updateHandling{
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.eshopMigrationWooCommerce table{
+		text-align:center;
+}
+.eshopMigrationWooCommerce .exportTableWrapper th{
+		background:#777;
+		color:#fff;
+		padding:5px;
+}
+
+
+.eshopMigrationWooCommerce .exportTableWrapper{
+	overflow-x:scroll;
+}
+
+/* === Container Elements === */
+
+.eshopMigrationWooCommerce,.eshopMigrationWooCommerce p{
+		font-size:14px;
+}
+
+.eshopMigrationWooCommerce h2{
+		font-size:16px;
+}
+
+.eshopMigrationWooCommerce iframe{
+	width:100%;
+	height:500px;
+}
+
+.eshopMigrationWooCommerce h3{
+		font-size:15px;
+		padding:20px;
+}
+.eshopMigrationWooCommerce h4{
+		font-size:15px;
+}
+
+.eshopMigrationWooCommerce .center{
+	text-align:center;
+}
+
+
+/* ======= Excel Upload Elements ======= */
+
+
+.eshopMigrationWooCommerce .uploader {
+	position:relative;
+	width:99%; 
+	height:300px;
+	background:#f3f3f3; 
+	border:1px dashed #e8e8e8;
+	background-size:cover;
+	margin:0 auto;
+	text-align:center;
+	background:url('../images/default.png') no-repeat left center;
+}
+.procsmeFile, .usersImportFile,  .ordersImportFile, .couponsImportFile{		
+	width:100%;
+	position:absolute;	
+	height:300px;
+	top:0;
+	left:0;
+	z-index:2;
+	opacity:0;
+	cursor:pointer;
+}
+.eshopMigrationWooCommerce .uploader .userSelected{
+	max-width:90%;
+	width:90%;
+	z-index:1;
+	border:none;
+	display:none;
+}
+
+/* ============ Form Elements ============ */
+
+.woo-form-wrapper, .woo-form-wrapper form{
+	overflow:hidden;
+	min-height:400px;
+	width:100%;
+}
+.eshopMigrationWooCommerce input[type=text],.eshopMigrationWooCommerce input[type=number], .eshopMigrationWooCommerce textarea{
+		border:none;
+		border-bottom:1px solid #0073aa;
+		transition:all .3s ease-in-out;
+		cursor:text;
+}
+.eshopMigrationWooCommerce input[type=text]:hover,.eshopMigrationWooCommerce input[type=number]:hover, .eshopMigrationWooCommerce textarea:hover{
+		background:#ffffcc;
+}
+
+.eshopMigrationWooCommerce  .startPosts{
+	display:none;
+}
+
+/* =============== Grid - Import Page  ================== */
+
+.eshopMigrationWooCommerce .column1,
+.eshopMigrationWooCommerce .columns2,
+.eshopMigrationWooCommerce .columns3,
+.eshopMigrationWooCommerce .columns4,
+.eshopMigrationWooCommerce .columns5,
+.eshopMigrationWooCommerce .columns6{
+	float:left;
+	box-sizing:border-box;
+	padding:10px;
+	margin:0 0.5%;
+}
+
+.eshopMigrationWooCommercecolumn1,
+.eshopMigrationWooCommercecolumns2,
+.eshopMigrationWooCommercecolumns3,
+.eshopMigrationWooCommercecolumns4,
+.eshopMigrationWooCommercecolumns5,
+.eshopMigrationWooCommercecolumns6{
+	float:left;
+	box-sizing:border-box;
+	padding:10px;
+	margin:0 0.5%;
+}
+
+.eshopMigrationWooCommercecolumns2, .eshopMigrationWooCommercecolumns3 h2{
+	color:#0073aa;
+}
+
+.eshopMigrationWooCommercecolumn1, .eshopMigrationWooCommerce .column1{
+	width:100%;
+	float:none;
+}
+.eshopMigrationWooCommercecolumns2, .eshopMigrationWooCommerce .columns2{
+	width:49% ;
+}
+.eshopMigrationWooCommercecolumns3,.eshopMigrationWooCommerce .columns3{
+	width:32.3% ;
+}
+.eshopMigrationWooCommercecolumns4, .eshopMigrationWooCommerce .columns4{
+	width:24%;
+}
+.eshopMigrationWooCommercecolumns5{
+	width:19%;
+}
+.eshopMigrationWooCommercecolumns6{
+	width:15.6%;
+}
+.eshopMigrationWooCommerce  .tableexport-caption {
+    caption-side: top !important;
+	text-align:left;
+}
+
+.eshopMigrationWooCommerce button{
+	background:#42b72a;
+	color:#fff;
+	text-align:right;
+	border:none;
+	margin:10px;
+	padding:5px;
+	cursor:pointer;
+}
+
+.eshopMigrationWooCommerce .msg,.eshopMigrationWooCommerce .response{
+		background:#fff;
+		padding:10px;
+		margin:5px;
+		border:1px solid #777;
+		display:none;
+		position:absolute;
+		left:30%;
+		top:5%;
+		width:60%;
+}
+.eshopMigrationWooCommerce .success{
+		background:lightGreen;
+		border:1px solid green;
+		color:#fff;
+		padding:5px;
+}
+.eshopMigrationWooCommerce .error{
+		background:#FFCCCB;
+		border:1px solid red;
+		padding:5px;
+}
+.eshopMigrationWooCommerce .warning{
+		background:#d9534f;
+		color:#fff;
+		padding:5px;
+}
+
+.eshopMigrationWooCommerce .importMessageSussess{
+		background:lightGreen;
+		padding:5px;
+		border:1px solid green;
+		color:#fff;
+}
+.eshopMigrationWooCommerce .importMessageSussess a, .eshopMigrationWooCommerce .success a{
+		color:#000;
+}
+
+.eshopMigrationWooCommerce table{
+		text-align:center;
+}
+.eshopMigrationWooCommerce #toExport th{
+		background:#777;
+		color:#fff;
+		padding:5px;
+}
+
+
+.eshopMigrationWooCommerce .exportTableWrapper{
+	overflow-x:scroll;
+}
+
+#eshopMigrationWooCommerceForm tr:nth-child(5){
+	display:none;
+}
+
+
+.eshopMigrationWooCommerce #productupdateBy{
+	display:none;
+}
+
+.eshopMigrationWooCommerce .update_onlyField i{
+	color:red;
+}
+
+.procsmeIntro .flex{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+.procsmeIntro .flex > div{
+	display:flex;
+	flex-direction:column;
+}
+.procsmeIntro .flex  div  div{
+	display:flex;
+}
+
+.procsmeIntro h2{
+	font-family:tahoma;
+	font-size:60px;
+	color:#2E3186
+}
+.procsmeIntro a{
+	font-size:20px;
+	text-decoration:none;
+}
+.procsmeIntro .sequence{
+	font-size:60px;
+	font-family:segoe print;
+    width: 130px;
+    height: 50px; 
+    color: #C35727;
+    display:inline-block;
+    line-height:50px;
+	margin:10px 30px;	
+	text-align:center;
+}
+
+.procsmeIntro .circular{
+    border-radius: 1000%;
+    width: 130px;
+    height: 130px; 
+    background: green;
+    display:inline-block;
+    line-height:130px;
+    vertical-align:center;
+    text-align:center;
+    color:#ffffff;
+	margin:20px;
+	transition: all .3s linear;
+}
+
+.procsmeIntro .circular:hover{
+	opacity:0.6;
+}
+
+.procsmeIntro .reviews, .procsmeproIntro .coupons{
+    background: #9C9C00
+}
+.procsmeIntro .orders{
+    background: #E4007B
+}
+.procsmeIntro .arrows{
+    color: #E4007B;
+	font-size:30px;
+}
+.eshopMigrationWooCommerce .arrows{
+    color: #E4007B !important;
+	padding-right:10px;
+}
+.eshopMigrationWooCommerce #accordion{
+	margin-top:30px;
+	padding:20px;
+}
+
+.proSpan{
+	color:#42b72a;
+	font-style:italic;
+	font-weight:bold;
+	cursor:pointer;
+}
+.proVersion:hover{
+	cursor:pointer;
+}
+
+.proUrl{
+	color:#fff;
+	background:#42b72a;
+	padding:10px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.proUrl:hover{
+	color:#fff;
+	box-shadow:0 2px 2px #777;
+}
+
+input.proVersion{
+	border:2px solid #fff;
+	background:#fefefe !important;
+	color:#fff !important
+}
+h2 a.proVersion{
+	background:#e5e5e5 !important;
+	color:#444 !important
+}
+h2 a.proVersionBuy{
+	background:#42b72a !important;
+	color:#fff !important
+}
+
+h2 a.disabled{
+	background:#fefefe !important;
+	color:#dddddd !important
+}
+span.proVersion{
+	color:#c9c9c9 !important
+}
+
+
+/*  PRO VERSION MODAL */
+#eshopMigrationWooCommerceModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+#eshopMigrationWooCommerceModal .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+	overflow:hidden;
+}
+
+/* The Close Button */
+#eshopMigrationWooCommerceModal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#eshopMigrationWooCommerceModal .close:hover,
+#eshopMigrationWooCommerceModal .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* =============== Responsive ================== */
+
+@media(max-width:992px){
+
+	.eshopMigrationWooCommerce .columns2,.eshopMigrationWooCommerce .columns3,.eshopMigrationWooCommerce .columns4,.eshopMigrationWooCommerce .columns5,.eshopMigrationWooCommerce .columns6{
+		float:none;
+		width:99%;
+	}
+	
+	.eshopMigrationWooCommercecolumns2,.eshopMigrationWooCommercecolumns3,.eshopMigrationWooCommercecolumns4,.eshopMigrationWooCommercecolumns5,.eshopMigrationWooCommercecolumns6{
+		float:none;
+		width:99%;
+	}	
+	
+	.eshopMigrationWooCommerce  .left_wrap, .eshopMigrationWooCommerce .right_wrap{
+		float:none;
+		width:100%;
+		border-right:none;
+	}
+
+	.eshopMigrationWooCommerce .border{
+		border-right:none;
+	}		
+		
+}
